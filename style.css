@@ -244,6 +244,11 @@ label.main:hover:before {
     transition: all 0.3s ease-in;
 }
 
+.screen>#magicButton:checked~#app-cover {
+    display: none;
+    transition: all 1s ease-in;
+}
+
 .list {
     border-spacing: 0px 2px;
     width: 342px;
