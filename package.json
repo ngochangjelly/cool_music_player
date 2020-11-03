@@ -1,0 +1,24 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "- I build my own music player for fun, I want it to be cool and interactive",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ngochangjelly/cool_music_player.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ngochangjelly/cool_music_player/issues"
+    },
+    "homepage": "https://github.com/ngochangjelly/cool_music_player#readme",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "youtube-music-api": "^1.0.5"
+    }
+}

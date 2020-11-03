@@ -1,13 +1,11 @@
-/* PRESS THE MENU BUTTON FOR ANIMATION */
+/* define global css variables */
+
+:root {
+    --red: #ff564c;
+}
 
 
-/* PRESS PLAY BUTTON TO LISTEN THE DEMO SONG */
-
-
-/* As seen on: "https://dribbble.com/shots/2144866-Day-5-Music-Player-Rebound/" */
-
-
-/* THANK YOU! */
+/* end defide global css variables */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 body {
@@ -244,7 +242,7 @@ label.main:hover:before {
     transition: all 0.3s ease-in;
 }
 
-.screen>#magicButton:checked~#app-cover {
+.screen>#magicButton:checked~.info {
     display: none;
     transition: all 1s ease-in;
 }
@@ -429,10 +427,10 @@ td>#heart8:checked~label.zmr:before {
 
 .info {
     width: 157px;
-    position: absolute;
     left: 104px;
-    top: 440px;
-    transition: all 0.3s ease-in;
+    /* margin-top: 40px; */
+    /* transition: all 0.3s ease-in; */
+    display: flex;
 }
 
 .screen>#magicButton:checked~.info {
